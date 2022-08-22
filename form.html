@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+<title>Form</title>
+</head>
+<body > 
+<form action="mailto:azeezwahab24@gmail.com" method="post">
+
+<fieldset>
+    <legend>Names</legend>
+    <!--name starts here-->
+     <label for="fname">First Name</label> 
+            <input type="text" id="fname" value="Your First Name Here" size="30"/>
+    <br>
+        <label for="oname"> Other Names </label>
+            <input type="text" id="oname" value="Your Other Names Here" size="30" multiple/>
+    <br>
+        <label for="lname">Last Name </label>
+            <input type="text" id="lname" value="Your Last Name Here" size="30"/>
+    </fieldset>
+    <hr>
+    <fieldset>
+    <legend>Sex</legend>
+    <!--selection of sex starts here-->
+        <input type="radio" name="Sex" id="male" value="male"/>
+            <label for="male">Male</label>
+    
+        <input type="radio" name="Sex" id="female" value="female"/>
+            <label for="female">FeMale</label>
+    
+        <input type="radio" name="Sex" id="others" value="others"/>
+            <label for="others">Others</label>
+    </fieldset>
+    <hr>
+    <label for="org">Name Of Organization</label>
+    <input type="text" id="org"/>
+<br>
+    <label for="pos">Title or Position</label>
+    <input type="text" id="pos"/>
+    <hr>
+<fieldset>
+    <legend>Contact Information</legend>
+        <label for="mail">Email</label>
+            <input type="mail" id="mail"/>
+    <br>
+        <label for="num">Phone Number (work or Cell)</label>
+            <input type="tel" id="num"/>
+        <br>
+        <label for="address"></label>Address</label>
+            <input type="text" id="address"/>
+</fieldset>
+
+<textarea cols="30" rows="10" name="comments"> Your Comments Here </textarea>
+
+<br>
+<input type="submit" value="DONE"/>
+<input type="reset" value="Clear All"/>
+</form>
+
+</body>
+</html>
